@@ -51,7 +51,7 @@ function shell(){
           <input type="range" class="range" id="fsRange" min="85" max="130" step="5"></div>
         <div class="setting"><label>Language</label>
           <div class="seg" id="segLang"><button data-lang="en">English</button><button data-lang="roman">Roman</button></div>
-          <p class="small muted" style="margin:8px 0 0">Abhi sirf menu aur buttons ke labels badalte hain. Poora content owner ki language mein hi rahega.</p></div>
+          <p class="small muted" style="margin:8px 0 0">Ye pasand abhi save hoti hai; labels ka poora Roman/Urdu switch agle step mein.</p></div>
         <div class="setting"><label>Notifications</label>
           <button class="btn ghost sm" id="btnNotify">${P.notify?'Band karein':'Naye update ke liye on karein'}</button>
           <p class="small muted" style="margin:8px 0 0">Ye browser notification hai. Phone band ho to push nahi aayega (abhi push ka backend nahi hai).</p></div>
