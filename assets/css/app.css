@@ -27,7 +27,7 @@ p{margin:0 0 .9em}
 .sec + .sec{border-top:1px solid var(--line)}
 .eyebrow{font-size:12px;letter-spacing:2.4px;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:10px}
 .lead{font-size:17px;color:var(--muted);max-width:60ch}
-.sample{display:inline-block;font-size:11px;letter-spacing:.4px;background:var(--gold-l);color:#6E5620;border-radius:999px;padding:2px 9px;margin-left:6px;vertical-align:middle;font-family:Inter,sans-serif}
+.sample{display:inline-block;font-size:11px;letter-spacing:.4px;text-transform:none;white-space:normal;line-height:1.35;background:var(--gold-l);color:#6E5620;border-radius:999px;padding:2px 9px;margin-left:6px;vertical-align:middle;font-family:Inter,sans-serif}
 body.dark .sample{color:#E9D9A8}
 .draft{font-size:12px;color:var(--red)}
 
