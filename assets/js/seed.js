@@ -10,7 +10,7 @@ window.TAJ_SEED = {
     tagline: "Ilm ko samjhiye, adab ke saath",
     sub: "Kitabein, roz ka paigham, quiz aur ilm ki raah — ek saaf aur aasan jagah.",
     heroSlides: ["assets/img/hero.jpg"],
-    heroCaption: "Hero photo slot — owner ki photo yahan aayegi",
+    heroCaption: "",
     stats: [
       {label:"Resources", value:1000, suffix:"+", claimed:true},
       {label:"Readers", value:50, suffix:"K+", claimed:true},
