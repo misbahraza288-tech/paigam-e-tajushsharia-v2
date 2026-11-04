@@ -143,7 +143,7 @@ V.home = () => {
       <svg class="ornament" viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-width="1" style="inset:auto;right:-60px;top:-60px;width:260px"><path d="M100 10 L130 50 L175 40 L165 85 L190 100 L165 115 L175 160 L130 150 L100 190 L70 150 L25 160 L35 115 L10 100 L35 85 L25 40 L70 50 Z"/><circle cx="100" cy="100" r="42"/><path d="M100 58 L142 100 L100 142 L58 100 Z"/></svg>
       ${sl.map((src,i)=>`<div class="slide ${i===0?'on':''}"><img alt="" src="${esc(src)}"></div>`).join('')}
       <div class="dots">${sl.map((_,i)=>`<i class="${i===0?'on':''}"></i>`).join('')}</div>
-      <div class="cap">${esc(S().heroCaption||'')}</div>
+      ${S().heroCaption?`<div class="cap">${esc(S().heroCaption)}</div>`:''}
     </div>
   </div></section>`)}
   ${sec('stats', `<section class="sec" style="padding-top:28px"><div class="wrap"><div class="stats fade-up">${stats}</div></div></section>`)}
